@@ -1,0 +1,99 @@
+body{
+    background: url("https://wallpapercave.com/wp/Cds8g6A.jpg");
+    color: #fff;
+}
+
+.App {
+    text-align: center;
+}
+
+
+.mixer-wrapper, .controller-wrapper {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,2c2c2c+98,474747+99,2c2c2c+99,474747+99,666666+99,2b2b2b+99,111111+99,000000+99,474747+99,2c2c2c+99,666666+99,2c2c2c+100,2c2c2c+100,2c2c2c+100,2c2c2c+100,474747+100,474747+100,474747+100,1c1c1c+100,474747+100,1c1c1c+100,474747+100,2c2c2c+100,595959+100,131313+100,2c2c2c+100,474747+100,111111+101,474747+101,474747+101,474747+101,474747+101,474747+102,1c1c1c+102,2c2c2c+102,2c2c2c+102,2c2c2c+102,2c2c2c+103 */
+    background: #4c4c4c; /* Old browsers */
+    background: -moz-linear-gradient(top, #4c4c4c 0%, #2c2c2c 98%, #474747 99%, #2c2c2c 99%, #474747 99%, #666666 99%, #2b2b2b 99%, #111111 99%, #000000 99%, #474747 99%, #2c2c2c 99%, #666666 99%, #2c2c2c 100%, #2c2c2c 100%, #2c2c2c 100%, #2c2c2c 100%, #474747 100%, #474747 100%, #474747 100%, #1c1c1c 100%, #474747 100%, #1c1c1c 100%, #474747 100%, #2c2c2c 100%, #595959 100%, #131313 100%, #2c2c2c 100%, #474747 100%, #111111 101%, #474747 101%, #474747 101%, #474747 101%, #474747 101%, #474747 102%, #1c1c1c 102%, #2c2c2c 102%, #2c2c2c 102%, #2c2c2c 102%, #2c2c2c 103%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #4c4c4c 0%,#2c2c2c 98%,#474747 99%,#2c2c2c 99%,#474747 99%,#666666 99%,#2b2b2b 99%,#111111 99%,#000000 99%,#474747 99%,#2c2c2c 99%,#666666 99%,#2c2c2c 100%,#2c2c2c 100%,#2c2c2c 100%,#2c2c2c 100%,#474747 100%,#474747 100%,#474747 100%,#1c1c1c 100%,#474747 100%,#1c1c1c 100%,#474747 100%,#2c2c2c 100%,#595959 100%,#131313 100%,#2c2c2c 100%,#474747 100%,#111111 101%,#474747 101%,#474747 101%,#474747 101%,#474747 101%,#474747 102%,#1c1c1c 102%,#2c2c2c 102%,#2c2c2c 102%,#2c2c2c 102%,#2c2c2c 103%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #4c4c4c 0%,#2c2c2c 98%,#474747 99%,#2c2c2c 99%,#474747 99%,#666666 99%,#2b2b2b 99%,#111111 99%,#000000 99%,#474747 99%,#2c2c2c 99%,#666666 99%,#2c2c2c 100%,#2c2c2c 100%,#2c2c2c 100%,#2c2c2c 100%,#474747 100%,#474747 100%,#474747 100%,#1c1c1c 100%,#474747 100%,#1c1c1c 100%,#474747 100%,#2c2c2c 100%,#595959 100%,#131313 100%,#2c2c2c 100%,#474747 100%,#111111 101%,#474747 101%,#474747 101%,#474747 101%,#474747 101%,#474747 102%,#1c1c1c 102%,#2c2c2c 102%,#2c2c2c 102%,#2c2c2c 102%,#2c2c2c 103%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#2c2c2c',GradientType=0 ); /* IE6-9 */
+    max-width: 260px;
+    min-height: 242px;
+    padding: 20px 10px;
+    border: 1px solid #4c4c4c;
+}
+.controller-wrapper {
+    min-height: 271px;
+}
+.track {
+    font-size: 12px;
+    padding: 10px;
+    color: #88f607;
+    background: #111;
+    min-height: 14px;
+}
+.selectFile {
+    display: none;
+}
+
+.seekRange span {
+    padding: 0px 5px;
+}
+
+span#seekObjContainer {
+    position: relative;
+    top: -5px;
+}
+
+progress#seekObj {
+    height: 6px;
+    cursor: pointer;
+}
+progress[value] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    color: #2B2B46;
+    padding: 1px;
+
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: white;
+  border-radius: 2px;
+  border: 1px solid lighten(#acacac, 20%);
+  color: blue;
+}
+progress::-webkit-progress-value {
+  background-color: #444;
+}
+
+
+.controls {
+  padding: 20px 0;
+}
+.seekRange span {
+    padding: 0px 5px;
+}
+select {
+    min-width: 282px;
+    background: #727272;
+    padding: 5px 0;
+    border: 1px solid #535353;
+    outline: none;
+}
+button.uploadButton {
+    background: #F3BC00;
+    outline: none;
+    border: none;
+    padding: 3px 15px;
+    color: #333;
+    margin: 10px;
+}
+
+button.playButton {
+    background: #86C33F;
+    outline: none;
+    border: none;
+    padding: 3px 15px;
+    color: #333;
+    margin: 10px;
+}
