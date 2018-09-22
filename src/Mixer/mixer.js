@@ -43,8 +43,8 @@ const mixer = (props) => {
 			<button className="uploadButton" onClick={props.upload}>Upload</button>
 			<button className="playButton" onClick={props.play}>Play</button>
 			<button className="nextButton" onClick={props.next}>Next</button>
-			<button className="stopButton" onClick={props.prev}>Prev</button>
-			<button className="toStartButton" onClick={props.tostart}>Start</button>
+			<button className="prevButton" onClick={props.prev}>Prev</button>
+			<button className="toStartButton" onClick={props.tostart}>To start</button>
 
 		</div>
 		
