@@ -1,6 +1,7 @@
 ![alt text](https://raw.githubusercontent.com/VitPet/dj-controller/master/public/dj-controller.png)
 
-**React Dj Controller
+**React Dj Controller**
+
 **Put your tracks to Public folder**
 
 # npm i
