@@ -5,6 +5,6 @@
 # npm i
 # npm start
 
-# Tap Upload and select tracks you want to play
+**Tap Upload and select tracks you want to play**
 
 ## Play
